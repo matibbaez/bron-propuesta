@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* TIPOGRAFÍAS (Mantenemos las mismas, funcionan bien) */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+
+  /* NUEVA PALETA: Minimalista Negro/Amarillo */
+  
+  /* "Navy" ahora será Gris Carbón Oscuro (Para textos y fondos fuertes) */
+  --color-navy-800: #27272a; /* Zinc 800 */
+  --color-navy-900: #18181b; /* Zinc 900 - Casi negro */
+  
+  /* "Gold" ahora será Amarillo Ámbar (Sofisticado, no chillón) */
+  --color-gold-500: #ca8a04; /* Yellow 600 de Tailwind, más quemado */
+  --color-gold-600: #a16207; /* Yellow 700 para hover */
+}

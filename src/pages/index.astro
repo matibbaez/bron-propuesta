@@ -1,0 +1,140 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Bron & Asoc. | Estudio Jurídico Integral">
+    
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 text-navy-900">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="font-serif text-2xl tracking-wider font-bold">
+                    BRON <span class="text-gold-500">&</span> ASOC.
+                </span>
+                <span class="text-[10px] uppercase tracking-[0.2em] text-slate-400">Estudio Jurídico Integral</span>
+            </div>
+
+            <a href="https://wa.me/54911XXXXXXXX" target="_blank" class="hidden md:block bg-gold-500 hover:bg-gold-600 text-white px-6 py-2 rounded-sm font-medium transition-colors duration-300 shadow-lg shadow-gold-500/20">
+                Consulta Inmediata
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative min-h-screen flex items-center bg-white pt-32 pb-24">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="space-y-8 animate-fade-in-up relative z-10 lg:pr-12">
+                <div class="w-12 h-1 bg-gold-500 mb-6"></div>
+                
+                <h1 class="text-navy-900 text-5xl md:text-6xl lg:text-7xl leading-tight font-bold font-serif">
+                    Experiencia legal.<br>
+                    <span class="text-gold-500">Resultados claros.</span>
+                </h1>
+                
+                <p class="text-slate-600 text-lg leading-relaxed max-w-xl">
+                    Estudio Bron. Asesoramiento jurídico estratégico en Lanús. 
+                    Simplificamos lo complejo para defender sus intereses.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 pt-6">
+                    <a href="#contacto" class="bg-gold-500 hover:bg-gold-600 text-white text-center px-8 py-4 rounded-sm font-bold uppercase tracking-wider transition-all transform hover:-translate-y-1 shadow-xl shadow-gold-500/20">
+                        Consulta Privada
+                    </a>
+                    <a href="#areas" class="border-2 border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white text-center px-8 py-4 rounded-sm font-bold uppercase tracking-wider transition-colors">
+                        Nuestras Áreas
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative h-80 md:h-[500px] lg:h-screen lg:absolute lg:right-0 lg:top-0 lg:w-5/12 order-first lg:order-last mt-8 lg:mt-0">
+                <img 
+                    src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=2301&auto=format&fit=crop" 
+                    alt="Abogados Bron Minimalista" 
+                    class="w-full h-full object-cover grayscale contrast-125"
+                />
+                <div class="absolute inset-0 bg-gold-500/10 mix-blend-multiply"></div>
+            </div>
+        </div>
+    </header>
+
+	<section class="py-24 bg-slate-50 relative overflow-hidden">
+        <div class="absolute left-1/2 top-0 bottom-0 w-px bg-slate-200 hidden md:block"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            
+            <div class="max-w-2xl mb-16">
+                <span class="text-gold-500 font-bold tracking-widest text-xs uppercase mb-2 block">Nuestro Enfoque</span>
+                <h2 class="text-4xl md:text-5xl font-serif text-navy-900 font-bold leading-tight">
+                    Soluciones jurídicas <br> para escenarios complejos.
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="group bg-white p-10 border border-slate-100 hover:border-gold-500 transition-all duration-500 hover:shadow-2xl hover:shadow-slate-200/50 relative">
+                    <div class="w-12 h-12 bg-navy-900 text-white flex items-center justify-center rounded-sm mb-6 group-hover:bg-gold-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-serif text-navy-900 mb-4 group-hover:text-gold-600 transition-colors">Derecho Penal</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+                        Defensa estratégica en etapas de instrucción y juicio oral. Asistencia inmediata en detenciones y eximiciones.
+                    </p>
+                    <a href="#" class="text-navy-900 font-bold text-xs uppercase tracking-widest border-b border-gold-500 pb-1">Leer Más</a>
+                </div>
+
+                <div class="group bg-white p-10 border border-slate-100 hover:border-gold-500 transition-all duration-500 hover:shadow-2xl hover:shadow-slate-200/50 relative">
+                    <div class="w-12 h-12 bg-navy-900 text-white flex items-center justify-center rounded-sm mb-6 group-hover:bg-gold-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-serif text-navy-900 mb-4 group-hover:text-gold-600 transition-colors">Derecho Comercial</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+                        Asesoramiento integral a empresas y PyMEs. Concursos, quiebras y redacción de contratos blindados.
+                    </p>
+                    <a href="#" class="text-navy-900 font-bold text-xs uppercase tracking-widest border-b border-gold-500 pb-1">Leer Más</a>
+                </div>
+
+                <div class="group bg-white p-10 border border-slate-100 hover:border-gold-500 transition-all duration-500 hover:shadow-2xl hover:shadow-slate-200/50 relative">
+                    <div class="w-12 h-12 bg-navy-900 text-white flex items-center justify-center rounded-sm mb-6 group-hover:bg-gold-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-serif text-navy-900 mb-4 group-hover:text-gold-600 transition-colors">Sucesiones</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6 text-sm">
+                        Gestión ágil de patrimonios familiares. Resolución de conflictos hereditarios con discreción y eficacia.
+                    </p>
+                    <a href="#" class="text-navy-900 font-bold text-xs uppercase tracking-widest border-b border-gold-500 pb-1">Leer Más</a>
+                </div>
+
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-slate-200 mt-20 pt-12">
+                <div class="text-center md:text-left">
+                    <span class="text-4xl md:text-5xl font-serif text-navy-900 block font-bold">+15</span>
+                    <span class="text-xs text-slate-500 uppercase tracking-widest mt-2 block">Años de Trayectoria</span>
+                </div>
+                <div class="text-center md:text-left">
+                     <span class="text-4xl md:text-5xl font-serif text-navy-900 block font-bold">500+</span>
+                    <span class="text-xs text-slate-500 uppercase tracking-widest mt-2 block">Casos Resueltos</span>
+                </div>
+                 <div class="text-center md:text-left">
+                     <span class="text-4xl md:text-5xl font-serif text-navy-900 block font-bold">24hs</span>
+                    <span class="text-xs text-slate-500 uppercase tracking-widest mt-2 block">Respuesta Inicial</span>
+                </div>
+                 <div class="text-center md:text-left flex items-center justify-center md:justify-start">
+                    <a href="#contacto" class="text-gold-500 font-serif italic text-xl hover:underline">Agendar Cita &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-navy-900 py-16">
+        <div class="container mx-auto px-6 text-center text-white">
+            <p class="text-gold-500 text-sm uppercase tracking-widest mb-8 opacity-80">Especialistas en</p>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16">
+                <span class="text-white font-serif text-2xl font-bold">Derecho Penal</span>
+                <span class="text-white font-serif text-2xl font-bold">Empresarial</span>
+                <span class="text-white font-serif text-2xl font-bold">Sucesiones</span>
+            </div>
+        </div>
+    </section>
+
+</Layout>
